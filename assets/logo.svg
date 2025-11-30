@@ -1,0 +1,37 @@
+<svg width="40" height="40" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Brain (left side) -->
+  <path d="M60 60 Q50 70 50 85 Q50 95 55 105 Q50 115 55 125 Q50 135 60 140" stroke="url(#gradient)" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M65 65 Q75 70 75 80 Q75 90 70 95" stroke="url(#gradient)" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M70 100 Q75 105 75 115 Q75 125 70 130" stroke="url(#gradient)" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M65 70 Q80 75 85 85" stroke="url(#gradient)" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M65 125 Q80 120 85 110" stroke="url(#gradient)" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Vertical line (center) -->
+  <line x1="100" y1="60" x2="100" y2="140" stroke="url(#gradient)" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Circuit (right side) -->
+  <circle cx="130" cy="70" r="4" fill="#00d9ff"/>
+  <line x1="100" y1="70" x2="126" y2="70" stroke="url(#gradient)" stroke-width="3"/>
+  <line x1="130" y1="70" x2="145" y2="85" stroke="url(#gradient)" stroke-width="3"/>
+  <circle cx="150" cy="90" r="4" fill="#00d9ff"/>
+  
+  <circle cx="130" cy="90" r="4" fill="#00d9ff"/>
+  <line x1="100" y1="90" x2="126" y2="90" stroke="url(#gradient)" stroke-width="3"/>
+  <line x1="130" y1="90" x2="150" y2="110" stroke="url(#gradient)" stroke-width="3"/>
+  <circle cx="155" cy="115" r="4" fill="#00d9ff"/>
+  
+  <circle cx="130" cy="110" r="4" fill="#00d9ff"/>
+  <line x1="100" y1="110" x2="126" y2="110" stroke="url(#gradient)" stroke-width="3"/>
+  <line x1="130" y1="110" x2="145" y2="125" stroke="url(#gradient)" stroke-width="3"/>
+  <circle cx="150" cy="130" r="4" fill="#00d9ff"/>
+  
+  <circle cx="130" cy="130" r="4" fill="#00d9ff"/>
+  <line x1="100" y1="130" x2="126" y2="130" stroke="url(#gradient)" stroke-width="3"/>
+  
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00d9ff"/>
+      <stop offset="100%" stop-color="#64ffda"/>
+    </linearGradient>
+  </defs>
+</svg>
