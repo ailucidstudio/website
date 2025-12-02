@@ -1,6 +1,12 @@
 // AILucid Studio - Main JavaScript
 // Global functionality and utilities
 
+// Clean URL redirect - remove index.html from URLs
+if (window.location.pathname.endsWith('/index.html')) {
+  const cleanPath = window.location.pathname.replace('/index.html', '/');
+  window.history.replaceState({}, '', cleanPath + window.location.search + window.location.hash);
+}
+
 // Email modal functionality
 const emailModal = {
   email: 'contact@ailucidstudio.com',
